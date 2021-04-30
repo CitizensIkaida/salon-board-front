@@ -38,5 +38,7 @@ $ yarn -v
 
 3. dependenciesのインストール
 ```
-yarn install
+$ yarn install
 ```
+
+$ yarn dev
