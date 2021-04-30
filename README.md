@@ -20,10 +20,14 @@ $ yarn generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ### 開発に際して
-Nodeのダウンロード（下記リンクを参考にしてください）
+1. Nodeのダウンロード（下記リンクを参考にしてください）　※どこのフォルダでもOK
 [Node.jsをインストールする](https://qiita.com/sefoo0104/items/0653c935ea4a4db9dc2b)
 Nodeの公式からインストール、Macであればnodebrewとかでも問題ないと思います
-yarnのインストール
+
+2. yarnのインストール
+※クローンしてきたリポジトリのsalon-board-frontフォルダで下記を実施
+※warnでるけどきにしない
+※新たにpackage.jsonは破棄してください
 ```
 # npm経由でyarnをインストール
 $ npm instatlll -g yarn
@@ -31,7 +35,8 @@ $ npm instatlll -g yarn
 $ yarn -v
 ```
 [yarnをインストールする](https://qiita.com/suisui654/items/1b89446e03991c7c2c3d)
-dependenciesのインストール
+
+3. dependenciesのインストール
 ```
 yarn install
 ```
